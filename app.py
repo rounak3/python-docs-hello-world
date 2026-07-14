@@ -8,7 +8,7 @@ def hello():
 
 @app.route('/0day0')
 def poc():
-    return 'Subdomain Takeover PoC By 0day0'
+    return 'Another Subdomain Takeover PoC By 0day0 AKA Rounak'
 
 if __name__ == '__main__':
     app.run(debug=True)
